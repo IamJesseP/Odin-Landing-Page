@@ -106,9 +106,9 @@ ul{
     display: flex;
     background-color: #E5E7EB;
     color: #1f2937;
-    font-size: 24px;
+    font-size: 18px;
     margin: 0;
-    padding: 200px;
+    padding:200px;
 }
 
 .quote{
@@ -120,4 +120,8 @@ ul{
 
 .quotethor{
     text-align: right;
+}
+
+.ctasection{
+    padding: 200px;
 }
