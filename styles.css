@@ -1,19 +1,26 @@
 body{
-    background-color: #1f2937;
     color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
 }
 
-
+.herobackground{
+    background-color: #1f2937;
+    padding: 50px 50px;
+}
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    background-color: #1f2937;
 }
 
 .headerlinks{
     display: flex;
     gap: 20px;
+}
+
+.desc{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -29,8 +36,28 @@ ul{
 
 .herobox{
     display:flex;
-    flex:auto;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     gap:50px;
+    background-color: #1f2937;
+    text-align: left;
+
 }
 
+.herotitle{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.herodescription{
+    width:400px;
+}
+
+.herobutton{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: #3882F6;
+    padding: 9px 30px;
+    border-radius: 5px;
+    font-weight:bold;
+}
