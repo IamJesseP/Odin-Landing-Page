@@ -1,0 +1,36 @@
+body{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.headerlinks{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    display: flex;
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.herobox{
+    display:flex;
+    flex:auto;
+    justify-content: space-around;
+    gap:50px;
+}
+
