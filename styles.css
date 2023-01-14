@@ -123,5 +123,32 @@ ul{
 }
 
 .ctasection{
+    display: flex;
     padding: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctacard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882F6;
+    flex-grow: 1;
+    max-width: 1000px;
+    max-height: fit-content;
+    border-radius: 10px;
+
+}
+
+.ctadesc{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+}
+
+.ctadesc > p{
+    margin-top: -10px;
 }
